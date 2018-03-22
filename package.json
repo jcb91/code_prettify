@@ -1,0 +1,15 @@
+{
+  "name": "jupyter-notebook-kernel-exec-on-cells",
+  "version": "0.1.0",
+  "description": "KernelExecOnCells library for building nbextensions which pass cell code through the kernel",
+  "main": "kernel_exec_on_cells.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name":"jcb91",
+    "email": "joshuacookebarnes@gmail.com"
+  },
+  "license": "BSD 3-clause"
+}
