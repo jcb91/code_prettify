@@ -1,3 +1,9 @@
+/**
+ * This file provides an example nbextension using the kernel_exec_on_cells library
+ * and is taken from
+ *     https://github.com/ipython-contrib/jupyter_contrib_nbextensions/blob/db0fccc6dc3f4302f7fe62296e4c9bc46a728226/src/jupyter_contrib_nbextensions/nbextensions/code_prettify/autopep8.js
+ */
+
 // Copyright (c) Jupyter-Contrib Team.
 // Distributed under the terms of the Modified BSD License.
 // Authors: @kenkoooo, @jfbercher and @jcb91
@@ -32,5 +38,4 @@ define(['./kernel_exec_on_cell'], function(kernel_exec_on_cell) {
     var prettifier = new kernel_exec_on_cell.define_plugin(mod_name, cfg);
     prettifier.load_ipython_extension = prettifier.initialize_plugin;
     return prettifier;
-
-    });
+});

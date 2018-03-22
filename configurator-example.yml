@@ -1,3 +1,11 @@
+# This yaml file provides information allowing the
+# jupyter_nbextensions_configurator to provide a config ui for an nbextension
+# see
+#     https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator
+# for details.
+# This example is taken from
+#     https://github.com/ipython-contrib/jupyter_contrib_nbextensions/blob/db0fccc6dc3f4302f7fe62296e4c9bc46a728226/src/jupyter_contrib_nbextensions/nbextensions/code_prettify/code_prettify.yaml
+
 Type: Jupyter Notebook Extension
 Name: Autopep8
 Description: Use kernel-specific code to reformat/prettify the contents of code cells
